@@ -1,0 +1,71 @@
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\ApplicationInsights.config
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\csc.exe
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\vbc.exe
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Divan 0.01.dll.config
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Divan 0.01.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Divan 0.01.pdb
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.Web.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Model.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Model.pdb
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.Web.xml
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\obj\Debug\Divan 0.01.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\obj\Debug\Divan 0.01.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Divan 0.01\obj\Debug\Divan 0.01.pdb
+J:\Divan 0.01\Divan 0.01\bin\ApplicationInsights.config
+J:\Divan 0.01\Divan 0.01\bin\roslyn\csc.exe
+J:\Divan 0.01\Divan 0.01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+J:\Divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+J:\Divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CodeAnalysis.dll
+J:\Divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+J:\Divan 0.01\Divan 0.01\bin\roslyn\Microsoft.CSharp.Core.targets
+J:\Divan 0.01\Divan 0.01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+J:\Divan 0.01\Divan 0.01\bin\roslyn\System.Collections.Immutable.dll
+J:\Divan 0.01\Divan 0.01\bin\roslyn\System.Reflection.Metadata.dll
+J:\Divan 0.01\Divan 0.01\bin\roslyn\vbc.exe
+J:\Divan 0.01\Divan 0.01\bin\roslyn\VBCSCompiler.exe
+J:\Divan 0.01\Divan 0.01\bin\roslyn\VBCSCompiler.exe.config
+J:\Divan 0.01\Divan 0.01\bin\Divan 0.01.dll.config
+J:\Divan 0.01\Divan 0.01\bin\Divan 0.01.dll
+J:\Divan 0.01\Divan 0.01\bin\Divan 0.01.pdb
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.Agent.Intercept.dll
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.DependencyCollector.dll
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.PerfCounterCollector.dll
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.ServerTelemetryChannel.dll
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.Web.dll
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.WindowsServer.dll
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.ApplicationInsights.dll
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+J:\Divan 0.01\Divan 0.01\bin\Model.dll
+J:\Divan 0.01\Divan 0.01\bin\Model.pdb
+J:\Divan 0.01\Divan 0.01\bin\Model.dll.config
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.DependencyCollector.xml
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.ServerTelemetryChannel.xml
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.Web.xml
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.AI.WindowsServer.xml
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.ApplicationInsights.xml
+J:\Divan 0.01\Divan 0.01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+J:\Divan 0.01\Divan 0.01\obj\Debug\Divan 0.01.csprojResolveAssemblyReference.cache
+J:\Divan 0.01\Divan 0.01\obj\Debug\Divan 0.01.dll
+J:\Divan 0.01\Divan 0.01\obj\Debug\Divan 0.01.pdb

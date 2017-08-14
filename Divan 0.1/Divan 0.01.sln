@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divan 0.01", "Divan 0.01\Divan 0.01.csproj", "{912CFD35-B0F7-4133-9D58-87656679B35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{90B890C6-6465-4F5C-B6AB-747AC1D6349F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912CFD35-B0F7-4133-9D58-87656679B35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912CFD35-B0F7-4133-9D58-87656679B35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912CFD35-B0F7-4133-9D58-87656679B35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912CFD35-B0F7-4133-9D58-87656679B35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B890C6-6465-4F5C-B6AB-747AC1D6349F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B890C6-6465-4F5C-B6AB-747AC1D6349F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B890C6-6465-4F5C-B6AB-747AC1D6349F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B890C6-6465-4F5C-B6AB-747AC1D6349F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

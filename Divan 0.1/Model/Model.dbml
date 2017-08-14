@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="divan" Class="ModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=awsdivan.chhgcjyy8brl.sa-east-1.rds.amazonaws.com;Initial Catalog=divan;User ID=master" SettingsObjectName="Model.Properties.Settings" SettingsPropertyName="divanConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ALUNO" Member="ALUNOs">
+    <Type Name="ALUNO">
+      <Column Name="IDALUNO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TELEFONE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CELULAR" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="SENHA" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="IDINSTITUICOES" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SOBRENOME" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Association Name="ALUNO_REPUTACAO" Member="REPUTACAOs" ThisKey="IDALUNO" OtherKey="IDALUNO" Type="REPUTACAO" />
+      <Association Name="INSTITUICOE_ALUNO" Member="INSTITUICOE" ThisKey="IDINSTITUICOES" OtherKey="IDINSTITUICOES" Type="INSTITUICOE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USUARIO" Member="USUARIOs">
+    <Type Name="USUARIO">
+      <Column Name="IDUSUARIO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SENHA" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TIPO_USUARIO" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GERENCIAR_BAIRRO" Member="GERENCIAR_BAIRROs">
+    <Type Name="GERENCIAR_BAIRRO">
+      <Column Name="IDGERENCIAR_BAIRRO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BAIRRO" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GERENCIAR_VAN" Member="GERENCIAR_VANs">
+    <Type Name="GERENCIAR_VAN">
+      <Column Name="IDGERECIAR_VAN" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDMOTORISTA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VAGAS" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TV" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AR_CONDICIONADO" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="MOTORISTA_GERENCIAR_VAN" Member="MOTORISTA" ThisKey="IDMOTORISTA" OtherKey="IDMOTORISTA" Type="MOTORISTA" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.INSTITUICOES" Member="INSTITUICOEs">
+    <Type Name="INSTITUICOE">
+      <Column Name="IDINSTITUICOES" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Association Name="INSTITUICOE_ALUNO" Member="ALUNOs" ThisKey="IDINSTITUICOES" OtherKey="IDINSTITUICOES" Type="ALUNO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MOTORISTA" Member="MOTORISTAs">
+    <Type Name="MOTORISTA">
+      <Column Name="IDMOTORISTA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDUSUARIO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="SOBRENOME" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TELEFONE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CELULAR" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="SENHA" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Association Name="MOTORISTA_GERENCIAR_VAN" Member="GERENCIAR_VANs" ThisKey="IDMOTORISTA" OtherKey="IDMOTORISTA" Type="GERENCIAR_VAN" />
+      <Association Name="MOTORISTA_REPUTACAO" Member="REPUTACAOs" ThisKey="IDMOTORISTA" OtherKey="IDMOTORISTA" Type="REPUTACAO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.REPUTACAO" Member="REPUTACAOs">
+    <Type Name="REPUTACAO">
+      <Column Name="IDREPUTACAO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDMOTORISTA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDALUNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CLASSIFICACAO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ALUNO_REPUTACAO" Member="ALUNO" ThisKey="IDALUNO" OtherKey="IDALUNO" Type="ALUNO" IsForeignKey="true" />
+      <Association Name="MOTORISTA_REPUTACAO" Member="MOTORISTA" ThisKey="IDMOTORISTA" OtherKey="IDMOTORISTA" Type="MOTORISTA" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

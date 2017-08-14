@@ -1,0 +1,5 @@
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Model\bin\Debug\Model.dll.config
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Model\bin\Debug\Model.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Model\bin\Debug\Model.pdb
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Model\obj\Debug\Model.dll
+C:\Users\Lucas\documents\visual studio 2015\Projects\divan 0.01\Model\obj\Debug\Model.pdb

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11" name="Model">
+  <DataContextMoniker Name="/ModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="84d6a967-2551-495c-8c3e-5ac50034b736" absoluteBounds="0.75, 5.875, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/ModelDataContext/ALUNO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f11f067-c23d-43ca-9477-c5e3d4041e39" absoluteBounds="0.765, 6.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="833b5678-012d-4700-9135-a01f43e4848e" absoluteBounds="6.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ModelDataContext/USUARIO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c6b34af-0517-436f-9513-e9238553b034" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67b48f38-74ee-4e3d-a204-bfdd32d2a124" absoluteBounds="6.75, 3.75, 2, 1.193992513020834">
+      <DataClassMoniker Name="/ModelDataContext/GERENCIAR_BAIRRO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4133a800-6d37-4434-adb1-73f9de06d3ec" absoluteBounds="6.765, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="48ebf922-9619-4417-be5d-76fe0ffc3496" absoluteBounds="3.5, 4.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/ModelDataContext/GERENCIAR_VAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80e8c047-dde4-49b1-9610-228ca3dbccd8" absoluteBounds="3.515, 4.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74cc06c7-c279-4620-ab00-63df692014e9" absoluteBounds="1.5, 9.5, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/ModelDataContext/INSTITUICOE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c14c171-17d5-4a94-a732-2b1b90a49d64" absoluteBounds="1.5150000000000001, 9.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc49385d-b7b5-4f6f-849c-8fc3759d416f" absoluteBounds="0.75, 1.875, 2, 2.347801106770834">
+      <DataClassMoniker Name="/ModelDataContext/MOTORISTA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e2af0948-7f2e-40c9-872a-28f17f7dcc61" absoluteBounds="0.765, 2.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7787bf7-1f13-423f-8f9e-63543f87245e" absoluteBounds="3.5, 1.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ModelDataContext/REPUTACAO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cc81204-462e-4de0-9eb4-92ce272ff80d" absoluteBounds="3.515, 1.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.125 : 9.5); (2.125 : 8.22280110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/INSTITUICOE/INSTITUICOE_ALUNO" />
+      <nodes>
+        <classShapeMoniker Id="74cc06c7-c279-4620-ab00-63df692014e9" />
+        <classShapeMoniker Id="84d6a967-2551-495c-8c3e-5ac50034b736" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.22280110677083); (3.125 : 4.59780110677083); (3.125 : 4.125); (3.25357443490112 : 4.25357443490112 : JumpStart); (3.37142556509888 : 4.37142556509888 : JumpEnd); (3.5 : 4.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ModelDataContext/MOTORISTA/MOTORISTA_GERENCIAR_VAN" />
+      <nodes>
+        <classShapeMoniker Id="bc49385d-b7b5-4f6f-849c-8fc3759d416f" />
+        <classShapeMoniker Id="48ebf922-9619-4417-be5d-76fe0ffc3496" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.93807592307692); (3.3125 : 5.37557592307692); (3.3125 : 2.03929768880208); (3.5 : 2.03929768880208)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/ALUNO/ALUNO_REPUTACAO" />
+      <nodes>
+        <classShapeMoniker Id="84d6a967-2551-495c-8c3e-5ac50034b736" />
+        <classShapeMoniker Id="d7787bf7-1f13-423f-8f9e-63543f87245e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.49644653320312); (3.22916666666667 : 2.49644653320312 : JumpStart); (3.39583333333333 : 2.49644653320312 : JumpEnd); (3.5 : 2.49644653320312)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ModelDataContext/MOTORISTA/MOTORISTA_REPUTACAO" />
+      <nodes>
+        <classShapeMoniker Id="bc49385d-b7b5-4f6f-849c-8fc3759d416f" />
+        <classShapeMoniker Id="d7787bf7-1f13-423f-8f9e-63543f87245e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
